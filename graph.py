@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import dataFetch    # Our custom functions to fetch the list containing the ID, likes and retweet lists
 
 def plotGraphs(username):
-    # try:
+    try:
         masterList = dataFetch.finalReturn(username)
         sNoList = masterList[0]
         likesList = masterList[1]
@@ -32,8 +32,8 @@ def plotGraphs(username):
 
         plt.savefig("./retweets.jpeg")
 
-    # except:
-    #     return "User not found"
+    except:
+        return "User not found"
 
 
 

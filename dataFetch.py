@@ -1,5 +1,5 @@
 import os
-import config
+# import config
 import requests
 
 # We make a dictionary headers to authenticate while performing GET request
