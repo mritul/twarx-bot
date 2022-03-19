@@ -5,7 +5,6 @@ import os
 
 # TOKEN = config.discord_TOKEN
 TOKEN = os.getenv("DISCORD_TOKEN")
-
 print("Starting script...")
 
 class MyClient(discord.Client):
