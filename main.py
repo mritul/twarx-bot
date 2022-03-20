@@ -16,7 +16,7 @@ class MyClient(discord.Client):
             return
         content = message.content
         if str(content)==".twhelp":
-            embedDesc = "`.twhelp`\nDisplays the help message\n`.twfetch`\nSyntax : `.twfetch [like/retweet] [username(without @ prefix)]`\n\nWhat the second parameter stands for\n`like` : The graph returned is based on the likes the requested user's tweets have received.\n`retweet` : The graph returned is based on the rewteets the requested user's tweets have received."
+            embedDesc = "`.twhelp`\nDisplays the help message\n`.twfetch`\nSyntax : `.twfetch [like/retweet] [username(without @ prefix)]`\n\nWhat the second parameter stands for\n`like` : The graph generated is based on the likes the requested user's tweets have received.\n`retweet` : The graph generated is based on the rewteets the requested user's tweets have received."
             embed = discord.Embed(title = "Helper Commands", colour=0x87CEEB, description = embedDesc)
             embed.set_author(name = "Twarx")
             # await message.channel.send("Use the command `.twfetch <<like/retweet>> <<username(without @)>>`")
