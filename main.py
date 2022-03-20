@@ -16,7 +16,11 @@ class MyClient(discord.Client):
             return
         content = message.content
         if str(content)==".twhelp":
-            await message.channel.send("Use the command `.twfetch <<like/retweet>> <<username(without @)>>`")
+            embedDesc = "`.twhelp`\nDisplays the help message\n`.twfetch`\nSyntax : `.twfetch [like/retweet] [username(without @ prefix)]`\nWhat the second parameter stands for\n`like` : The graph returned is based on the likes the requested user's tweets have received.\n`retweet` : The graph returned is based on the rewteets the requested user's tweets have received."
+            embed = discord.Embed(title = "Helper Commands", colour=0x87CEEB, dexcription = embedDesc)
+            embed.set_author(name = "Twarx")
+            # await message.channel.send("Use the command `.twfetch <<like/retweet>> <<username(without @)>>`")
+            await message.channel.send(embed)
             return
         if content.split()[0]==".twfetch":
             if len(content.split())!=3:
@@ -35,10 +39,10 @@ class MyClient(discord.Client):
                 else:
                     await message.channel.send(f"Here is your requested graph {author}")
                     if(content.split()[1]=="like"):
-                        await message.channel.send(file = discord.File("./likes.jpeg"))
+                        await message.author.send(file = discord.File("./likes.jpeg"))
                         return
                     else:
-                        await message.channel.send(file = discord.File("./retweets.jpeg"))
+                        await message.author.send(file = discord.File("./retweets.jpeg"))
                         return
         else:
             pass
