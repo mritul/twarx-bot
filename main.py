@@ -37,7 +37,7 @@ class MyClient(discord.Client):
                 if graphOutput=="User not found":
                     await message.channel.send("User not found")
                 else:
-                    await message.channel.send(f"Here is your requested graph {author}")
+                    await message.channel.send(f"The graph you requested has been personally sent to you {author}")
                     if(content.split()[1]=="like"):
                         await message.author.send(file = discord.File("./likes.jpeg"))
                         return
