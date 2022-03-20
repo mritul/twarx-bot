@@ -2,14 +2,14 @@
 
 [![Invite Me](https://img.shields.io/static/v1?style=flat&logo=discord&logoColor=FFF&label=&message=invite%20me&color=7289DA)](https://discord.com/api/oauth2/authorize?client_id=954588820593049651&permissions=103079716864&scope=bot)
 
-Twarx is a discord bot that returns a graph that tracks the engagement on the past 20 tweets of the requested username.
+Twarx returns a chart based on the engagement the past 20 tweets of the requested profile has received.
 
 ## Features
 
 - Easy to use
 - Open source
 - Find out how your tweets are performing lately and modify your content accordingly
-- The graph is personally messaged to the user
+- The graph is personally messaged to the user hence preventing the cluttering of messages in the server
 
 ## Commands :
 
