@@ -14,7 +14,7 @@ def plotGraphs(username):
         ax.set_xlabel('n\'th tweet in the last 20 tweets')
         ax.set_ylabel('No.of likes')
         ax.set_xticks(sNoList)
-        ax.set_title(username)
+        ax.set_title('@'+username)
 
         plt.savefig("./likes.jpeg")
         print(os.getcwd())
@@ -25,7 +25,7 @@ def plotGraphs(username):
         ax2.set_xlabel('n\'th tweet in the last 20 tweets')
         ax2.set_ylabel('No.of retweets')
         ax2.set_xticks(sNoList)
-        ax2.set_title(username)
+        ax2.set_title('@'+username)
 
         plt.savefig("./retweets.jpeg")
 
