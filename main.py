@@ -20,7 +20,7 @@ class MyClient(discord.Client):
             embed = discord.Embed(title = "Helper Commands", colour=0x87CEEB, description = embedDesc)
             embed.set_author(name = "Twarx")
             # await message.channel.send("Use the command `.twfetch <<like/retweet>> <<username(without @)>>`")
-            await message.channel.send(embed)
+            await message.channel.send(embed=embed)
             return
         if content.split()[0]==".twfetch":
             if len(content.split())!=3:
