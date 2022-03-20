@@ -28,7 +28,7 @@ def getTweetEngagements(id):
 #This block of code gets the latest tweets whose likes and retweets are then fetched and returned
 def fetchLatestTweets(username):
     userId = usernameToId(username)
-    latestTweetsUrl = f"https://api.twitter.com/2/users/{userId}/tweets?max_results=20&exclude=replies"
+    latestTweetsUrl = f"https://api.twitter.com/2/users/{userId}/tweets?max_results=20&exclude=replies,retweets"
     r=requests.get(url = latestTweetsUrl, headers = headers)
     data = r.json()
     tweetNos = [x for x in range(20,0,-1)]
