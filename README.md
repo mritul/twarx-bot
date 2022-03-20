@@ -9,6 +9,7 @@ Twarx is a discord bot that returns a graph that tracks the engagement on the pa
 - Easy to use
 - Open source
 - Find out how your tweets are performing lately and modify your content accordingly
+- The graph is personally messaged to the user
 
 ## Commands :
 
@@ -22,10 +23,10 @@ Syntax : `.twfetch [like/retweet] [username(without @ prefix)]`
 
 #### <b> What the second parameter stands for </b>
 
-`like` : The graph returned is based on the likes the requested user's tweets have received.
+`like` : The graph returned is based on the likes the requested profile's tweets have received.
 
-`retweet` : The graph returned is based on the rewteets the requested user's tweets have received.
+`retweet` : The graph returned is based on the rewteets the requested profile's tweets have received.
 
 <em>Note :- Disable all permissions for the bot in the channels not required in order to prevent the bot from responding in all the channels in the server</em>
 
-#### Feel free to open an issue/PR for any further feature additions or address bugs
+#### Feel free to open an issue/PR for any further feature additions or addressing bugs
