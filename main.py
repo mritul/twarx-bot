@@ -16,7 +16,7 @@ class MyClient(discord.Client):
             return
         content = message.content
         if str(content)==".twhelp":
-            embedDesc = "[Invite me to another server](https://discord.com/oauth2/authorize?client_id=954588820593049651&scope=bot)  [Vote for us](https://top.gg/bot/954588820593049651)\n\n`.twhelp`\n\nDisplays the help message\n\n`.twfetch`\n\nSyntax : `.twfetch [like/retweet] [username(without @ prefix)]`\n\nWhat the second parameter stands for\n\n`like` : The graph generated is based on the likes the requested user's tweets have received.\n\n`retweet` : The graph generated is based on the rewteets the requested user's tweets have received."
+            embedDesc = "[Invite me to another server](https://discord.com/oauth2/authorize?client_id=954588820593049651&scope=bot)       [Vote for us](https://top.gg/bot/954588820593049651)\n\n`.twhelp`\n\nDisplays the help message\n\n`.twfetch`\n\nSyntax : `.twfetch [like/retweet] [username(without @ prefix)]`\n\nWhat the second parameter stands for\n\n`like` : The graph generated is based on the likes the requested user's tweets have received.\n\n`retweet` : The graph generated is based on the rewteets the requested user's tweets have received."
             embed = discord.Embed(title = "Helper Commands", colour=0x87CEEB, description = embedDesc)
             embed.set_author(name = "Twarx")
             # await message.channel.send("Use the command `.twfetch <<like/retweet>> <<username(without @)>>`")
