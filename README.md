@@ -8,6 +8,8 @@
 
 Twarx returns a chart based on the engagement the past 20 tweets of the requested profile has received. So find out if you have the viewers attention by just a command.
 
+<em>Note :- Disable all permissions for the bot in the channels not required in order to prevent the bot from responding in all the channels in the server</em>
+
 ## Features
 
 - Open source
