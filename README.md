@@ -10,6 +10,10 @@ Twarx returns a chart based on the engagement the past 20 tweets of the requeste
 
 <em>Note :- Disable all permissions for the bot in the channels not required in order to prevent the bot from responding in all the channels in the server</em>
 
+## Demo
+
+![demo](https://i.imgur.com/4QdevPD.png)
+
 ## Features
 
 - Open source
