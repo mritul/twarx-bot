@@ -1,10 +1,10 @@
 # <b>Twarx</b>
 
 [![Invite](https://img.shields.io/static/v1?style=flat&logo=discord&logoColor=FFF&label=&message=invite%20me&color=7289DA)](https://discord.com/api/oauth2/authorize?client_id=954588820593049651&permissions=103079716864&scope=bot)
-
 [![Status](https://top.gg/api/widget/status/954588820593049651.svg)](https://top.gg/bot/955456643745845288)
-
 [![Servers in](https://top.gg/api/widget/servers/954588820593049651.svg)](https://top.gg/bot/955456643745845288)
+
+[Vote for us](https://top.gg/bot/954588820593049651)
 
 Twarx returns a chart based on the engagement the past 20 tweets of the requested profile has received. So find out if you have the viewers attention by just a command.
 
